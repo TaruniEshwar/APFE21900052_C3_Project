@@ -21,6 +21,7 @@ public class RestaurantService {
         return newRestaurant;
     }
 
+
     public Restaurant removeRestaurant(String restaurantName) throws restaurantNotFoundException {
         Restaurant restaurantToBeRemoved = findRestaurantByName(restaurantName);
         restaurants.remove(restaurantToBeRemoved);

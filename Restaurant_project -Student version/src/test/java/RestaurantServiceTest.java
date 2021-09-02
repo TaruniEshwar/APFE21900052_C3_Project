@@ -8,6 +8,7 @@ class RestaurantServiceTest {
     RestaurantService service = new RestaurantService();
     Restaurant restaurant;
 
+
     @BeforeEach
     private void createMockedRestaurant() {
         LocalTime openingTime = LocalTime.parse("10:30:00");
